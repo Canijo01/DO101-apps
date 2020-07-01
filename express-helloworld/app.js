@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   res.send('Hello World!\n');
 });
 
-app.get('/mars', function (req, res) {
+app.get('/marte', function (req, res) {
     res.send('Hello Mars!\n');
 });
 app.get('/venus', function (req, res) {
@@ -17,11 +17,19 @@ app.get('/jupiter', function (req, res) {
 app.get('/mercurio', function (req, res) {
     res.send('Hello Mercurio!\n');
 });
-app.get('/jupiter', function (req, res) {
-    res.send('Hello Jupiter!\n');
+app.get('/urano', function (req, res) {
+    res.send('Hello Urano!\n');
 });
-app.get('/saturno', function (req, res) {
+app.get('/neptuno', function (req, res) {
     res.send('Hello Saturno!\n');
+
+});
+app.get('/tierra', function (req, res) {
+    res.send('Hello tierra!\n');
+
+});
+app.get('/sol', function (req, res) {
+    res.send('Hello Sol!\n');
 
 });
 
